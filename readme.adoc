@@ -25,11 +25,23 @@ more description
 :keywords: GeekMustHave, keyword2, keyword3
 :email: GeekMustHave@PhoenixWorkgroup.com
 
-Preamble paragraph goes here
+*Software-defined radio* <<SDR>> is a radio communication system where components that have been traditionally implemented in hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a personal computer or embedded system. While the concept of SDR is not new, the rapidly evolving capabilities of digital electronics render practical many processes which were once only theoretically possible.  This is a tale of my journey through using SDR from the very beginning.
 
 == Introduction
 
 
+== Glossary
+
+[[DSP]]
+DSP::
+Digital Signal Processing, A digital signal processor (DSP) is a specialized microprocessor chip, with its architecture optimized for the operational needs of digital signal processing.
+ 
+
+
+[[SDR]]
+SDR::
+Software Defined Radio, Software Defined Radio attempts to place much or most of the complex signal handling involved in communications receivers and transmitters into the digital <<DSP>> style.
+ 
 
 
 

@@ -29,12 +29,51 @@ more description
 
 == Introduction
 
+Recently I obtained my FCC Technicians license for amateur radio <<HAM>> .  Thus I resumed my journey started when I was 16 Years old.
+A HAM operator in my neighborhood with a bunch of big antennas invited me to his `Shack`.  The dark space in the attic was full of wonderful boxes with dials and lights and the scratchy sound of people talking.  Within 10 minutes I was talking with someone in Russia.  Back them a phone call to Russia would have been a week of my wages cutting grass.  I was hooked.  I continued with electronics and radios throughout my life.  I knew enough about electronics and radio that I took the FCC Technicians test and passed.  While this only gave me a limited range of frequencies I could use it was a start.
+
+A good short wave transceiver was in the range of $1,000 to $2,00.  O good short wave receiver for all band was still around $300-$500.
+
+Then I discovered <<SDR>> where with the use of a $25 dongle and a PC the full radio spectrum was open to me.  This also included my obsession with police, fire and emergency radio.  I have my fair share of Radio Shack and Midland scanners.
+
+I decided to get started again with SDR only this time I'm taking notes.  I use a regular text editor and a markdown syntax called `ASCDoctor` to help create what appears to be a very structured and fancy formatted document and web site.
+
+
+
+<<<<
+ 
 
 == Glossary
 
 [[DSP]]
 DSP::
 Digital Signal Processing, A digital signal processor (DSP) is a specialized microprocessor chip, with its architecture optimized for the operational needs of digital signal processing.
+
+[[DRCT]]
+DRCT::
+Digital enhanced cordless telecommunications (Digital European cordless telecommunications), usually known by the acronym DECT, is a standard primarily used for creating cordless telephone systems. It originated in Europe, where it is the universal standard, replacing earlier cordless phone standards, such as 900 MHz CT1 and CT2.[1]
+ 
+
+
+[[GSM]]
+GSM::
+The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets. It was first deployed in Finland in December 1991.By the mid-2010s, it became a global standard for mobile communications achieving over 90% market share, and operating in over 193 countries and territories.
+ 
+[[HAM]]
+HAM::
+Amateur radio operators are also known as radio amateurs or hams. The term "ham" as a pejorative nickname for amateur radio operators was first heard in 1909 by operators in commercial and professional radio communities. The word was subsequently embraced by the operators, and stuck.
+ 
+
+ 
+[[Osmocom]]
+Osmocom::
+Osmocom (open source mobile communications) is an open-source software project that implements multiple mobile communication standards, including <<GSM>>, <<DECT>>, <<TETRA>> and others.
+ 
+
+
+[[RTL-DSR]]
+RTL-DSR::
+It has been discovered by Eric Fry that some common low-cost DVB-T USB dongles with the Realtek RTL2832Ucontroller and tuner, e.g. the Elonics E4000 or the Rafael Micro R820T, can be used as a wide-band (3 MHz) SDR receiver. Recent experiments have proven the capability of this setup to analyze perseids shower using the graves radar signals. This project is now being maintained at Osmocom.
  
 
 
@@ -43,6 +82,10 @@ SDR::
 Software Defined Radio, Software Defined Radio attempts to place much or most of the complex signal handling involved in communications receivers and transmitters into the digital <<DSP>> style.
  
 
+[[TETRA]]
+TETRA::
+Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military.
+ 
 
 
 <<<<

@@ -56,6 +56,23 @@ This also included my obsession with police, fire and emergency radio.  I have m
 I decided to get started again with SDR only this time I'm taking notes.  
 I use a regular text editor and a markdown syntax called <<ASCDoctor>> to help create what appears to be a very structured and fancy formatted document and web site.
 
+== Hardware
+
+Back a few years back I purchased a few SDR devices thinking I would use them immeditely, alas `life` got in the way.
+
+=== Aliexpress
+
+Purchased back in Jan 2016 for $40.00.
+
+.Aliexpress SDR
+image::aliexpress-sdr.jpg[Aliexpress SDR, alt='First SDR', align='center']
+
+Reference: link:https://www.aliexpress.com/item/32369434396.html?spm=a2g0s.9042311.0.0.27424c4dRT7Wzu[Aliexpress Order, window='_blank']
+
+Manual: The `Manual` for this device can be viewed at this link::./documents/aliexpress-doco.pdf[Link ]
+
+
+ 
 
 
 

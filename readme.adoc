@@ -19,17 +19,23 @@ v2.1b, 01/05/2021: Doco Type
 :web-ste: https://OpenStuff.pwc-lms.com/doco/folder name
 :linkattrs:
 :seclinks:
-:description: Metatag description \
-more description
+:description: These are my notes while using and testing Software Defined Radio. 
 :author: John HR Schuster
-:keywords: GeekMustHave, keyword2, keyword3
+:keywords: SDR, HAM, Software Defined Radio
 :email: GeekMustHave@PhoenixWorkgroup.com
+:blog-thumbnail: dr-basic-icon-1.png
 
 *Software-defined radio* <<SDR>> is a radio communication system where components that have been traditionally implemented in hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a personal computer or embedded system. While the concept of SDR is not new, the rapidly evolving capabilities of digital electronics render practical many processes which were once only theoretically possible.  This is a tale of my journey through using SDR from the very beginning.
 
+image::sdr-basic-icon-1.png[SDR, alt='sdr', align='center']
+ 
+
+ 
+
+
 == Introduction
 
-Recently I obtained my FCC Technicians license for amateur radio <<HAM>> .  Thus I resumed my journey started when I was 16 Years old.
+Recently I obtained my FCC Technicians license for amateur radio <<HAM>> .  Call sign *KD8VON*. Thus I resumed my journey started when I was 16 Years old.
 A HAM operator in my neighborhood with a bunch of big antennas invited me to his `Shack`.  The dark space in the attic was full of wonderful boxes with dials and lights and the scratchy sound of people talking.  Within 10 minutes I was talking with someone in Russia.  Back them a phone call to Russia would have been a week of my wages cutting grass.  I was hooked.  I continued with electronics and radios throughout my life.  I knew enough about electronics and radio that I took the FCC Technicians test and passed.  While this only gave me a limited range of frequencies I could use it was a start.
 
 A good short wave transceiver was in the range of $1,000 to $2,00.  O good short wave receiver for all band was still around $300-$500.
@@ -37,6 +43,7 @@ A good short wave transceiver was in the range of $1,000 to $2,00.  O good short
 Then I discovered <<SDR>> where with the use of a $25 dongle and a PC the full radio spectrum was open to me.  This also included my obsession with police, fire and emergency radio.  I have my fair share of Radio Shack and Midland scanners.
 
 I decided to get started again with SDR only this time I'm taking notes.  I use a regular text editor and a markdown syntax called `ASCDoctor` to help create what appears to be a very structured and fancy formatted document and web site.
+
 
 
 

@@ -31,6 +31,8 @@ image::sdr-basic-icon-1.png[SDR, alt='sdr', align='center']
 
 To download a PDF version of this article please click on this link:./readme.pdf[Link, window=_blank]
 
+The current Windows version (3.5) of the Zadig zip file can be downloaded from this link::./files/zadig-2.5.exe[Link].
+This utility is the executable, no installation needed.
  
 
  
@@ -70,6 +72,14 @@ image::aliexpress-sdr.jpg[Aliexpress SDR, alt='First SDR', align='center']
 Reference: link:https://www.aliexpress.com/item/32369434396.html?spm=a2g0s.9042311.0.0.27424c4dRT7Wzu[Aliexpress Order, window='_blank']
 
 Manual: The `Manual` for this device can be viewed at this link:./documents/aliexpress-doco.pdf[Link ]
+
+
+
+== Installation
+
+The drivers for SDR devices ar the most difficult part of the process.  There are some tricks to make this go easier including using `ZADIG` USB driver installation.
+
+Reference: link:https://zadig.akeo.ie[Zadig web site, window='_blank']
 
 
  

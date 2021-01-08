@@ -1,6 +1,6 @@
 = SDR Radio Tales of Woe
 John Schuster <John.schuster@PhoenixWorkgroup.com>
-v2.1b, 01/05/2021: Blog Article
+v2.1c, 01/07/2021: Blog Article
 :Author: John HR Schuster
 :Company: GeekMustHave
 :toc: left
@@ -148,6 +148,7 @@ Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio
 [cols='2,2,2,6' options='header']
 |===
 | Date  | Version | Author | Description
+| 01/07/2021 | V2.1c | JHRS |  Added installation
 | 01/05/2021 | V2.1b | JHRS |  Initial version
 |===
 

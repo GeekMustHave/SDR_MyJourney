@@ -26,61 +26,62 @@ v2.1c, 01/07/2021: Blog Article
 :blog-thumbnail: sdr-basic-icon-1.png
 :blog-title: Software Defined Radio (SDR) Journey
 
-*Software-defined radio* <<SDR>> is a radio communication system where components that have been traditionally implemented in hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a personal computer or embedded system. While the concept of SDR is not new, the rapidly evolving capabilities of digital electronics render practical many processes which were once only theoretically possible.  This is a tale of my journey through using SDR from the very beginning.
+*Software-defined radio* <<SDR>> is a radio communication system where components that have been traditionally implemented in hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented utilizing software on a personal computer or embedded system. While the concept of SDR is not new, the rapidly evolving capabilities of digital electronics render practical many processes which were once only theoretically possible.  This is a tale of my journey through using SDR from the very beginning.
 
 image::sdr-basic-icon-1.png[SDR, alt='sdr', align='center']
 
-To download a PDF version of this article please click on this link:./readme.pdf[Link, window=_blank]
+To download a PDF version of this article, please click on this link:./readme.pdf[Link, window=_blank]
 
-NOTE: Yea, I did copy some of the content from Wikepedia and other sources.  
-This was done out of necessity and speed.
+NOTE: Yea, I did copy some of the content from Wikipedia and other sources.  
+I did this out of necessity and speed.
 
 
 == Introduction
 
-Recently I obtained my FCC Technicians license for amateur radio <<HAM>> .  Call sign *KD8VON*. Thus I resumed my journey that started when I was 16 Years old.
-A HAM operator in my neighborhood with a bunch of big antennas invited me to his `Shack`.  
-The dark space in the attic was full of wonderful boxes with dials and lights and the scratchy sound of people talking.  
-Within 10 minutes I was talking with someone in Russia.  
-Back them a phone call to Russia would have been a week of my wages cutting grass.  
+Recently I obtained my FCC Technicians license for amateur radio <<HAM>> .  Call sign *KD8VON*. Thus I resumed my journey that started when I was 16 years old.
+A HAM operator in my neighborhood with many big antennas in the backyard invited me to his `Shack.`  
+The dark space in the attic was full of beautiful boxes with dials and lights and the scratchy sound of people talking.  
+Within 10 minutes, I was talking with someone in Russia.  
+Back then, a phone call to Russia would have been a week of my wages, cutting grass.  
 I was hooked.  I continued with electronics and radios throughout my life.  
-I knew enough about electronics and radio that I took the FCC Technicians test and passed.  
+Tinkering and building things were my escape from the `real` world.
+I knew enough about electronics and radio that I took the FCC Technicians test and passed the first time (Pat on the back).  
 While this only gave me a limited range of frequencies I could use, it was a start.
 
 A good short wave transceiver was in the range of $1,000 to $2,00.  
-A good short wave receiver for all band was still around $300-$500.
+An excellent short wave receiver for all bands was still around $300-$500.
 
-Then I discovered <<SDR>> where with the use of a $25 dongle and a PC the full radio spectrum was open to me.  
-This also included my obsession with police, fire and emergency radio.  I have my fair share of Radio Shack and Midland scanners.
+Then I discovered <<SDR>> where with the use of a $25 dongle and a PC, the full radio spectrum was open to me.  
+<<SDR>> would fuel my obsession with police, fire, and emergency radio.  I have my fair share of Radio Shack and Midland scanners.
 
-I decided to get started again with SDR only this time I'm taking notes.  
+I decided to get started again with SDR, only this time I'm taking notes.  
 I use a regular text editor and a markdown syntax called <<ASCDoctor>> to help create what appears to be a very structured and fancy formatted document and web site.
 
 == Hardware
 
-Back a few years back I purchased a few SDR devices thinking I would use them immediately, alas `life` got in the way.
+A few years back, I purchased a few SDR devices, thinking I would use them immediately, alas `life` got in the way.
 
 === Aliexpress
 
-Purchased back in Jan 2016 for $40.00.
+She was purchased back in Jan 2016 for $40.00.
 
 .Aliexpress SDR
 image::aliexpress-sdr.jpg[Aliexpress SDR, alt='First SDR', align='center']
 
 Reference: link:https://www.aliexpress.com/item/32369434396.html?spm=a2g0s.9042311.0.0.27424c4dRT7Wzu[Aliexpress Order, window='_blank']
 
-Manual: The `Manual` for this device can be viewed at this link:./documents/aliexpress-doco.pdf[Link ]
+Manual: The so called `Manual` for this device can be viewed at this link:./documents/aliexpress-doco.pdf[Link ]
 
 
 
 == Installation
 
-The drivers for SDR devices ar the most difficult part of the process.  There are some tricks to make this go easier including using `ZADIG` USB driver installation.
+The USB drivers for SDR devices are the most challenging part of getting started using <<SDR>>.  There are some tricks to make this more manageable, including using `ZADIG` USB driver installation.
 
 Reference: link:https://zadig.akeo.ie[Zadig web site, window='_blank']
 
 The current Windows version (3.5) of the Zadig zip file can be downloaded from this link::./files/zadig-2.5.exe[Link].
-This utility is the executable, no installation needed.
+This utility is the executable file; no installation is needed.
  
 
 
@@ -92,7 +93,7 @@ This utility is the executable, no installation needed.
 
 [[ASCDoctor]]
 ASCDoctor::
-Asciidoctor is a fast, open source text processor and publishing tool-chain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. Asciidoctor is written in Ruby and runs on all major operating systems. The Asciidoctor project is hosted on GitHub.
+Asciidoctor is a fast, open-source text processor and publishing toolchain for converting AsciiDoc content to HTML5, DocBook, PDF, and other formats. Asciidoctor is written in Ruby and runs on all major operating systems. The Asciidoctor project is hosted on GitHub.
  
 Reference: link:https://asciidoctor.org/[ASCIIDoctor Getting started, window='_blank']
 
@@ -102,7 +103,7 @@ DSP::
 Digital Signal Processing, A digital signal processor (DSP) is a specialized microprocessor chip, with its architecture optimized for the operational needs of digital signal processing.
 
 [[DRCT]]
-DRCT::
+DIRECT::
 Digital enhanced cordless telecommunications (Digital European cordless telecommunications), usually known by the acronym DECT, is a standard primarily used for creating cordless telephone systems. It originated in Europe, where it is the universal standard, replacing earlier cordless phone standards, such as 900 MHz CT1 and CT2.[1]
  
 
@@ -136,7 +137,7 @@ Software Defined Radio, Software Defined Radio attempts to place much or most of
 
 [[TETRA]]
 TETRA::
-Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services, (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services and the military.
+Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services, and the military.
  
 
 

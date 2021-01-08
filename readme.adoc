@@ -39,7 +39,7 @@ I did this out of necessity and speed.
 == Introduction
 
 Recently I obtained my FCC Technicians license for amateur radio <<HAM>> .  Call sign *KD8VON*. Thus I resumed my journey that started when I was 16 years old.
-A HAM operator in my neighborhood with many big antennas in the backyard invited me to his `Shack.`  
+A HAM operator in my neighborhood with many big antennas in the backyard, invited me to his `Shack.`  
 The dark space in the attic was full of beautiful boxes with dials and lights and the scratchy sound of people talking.  
 Within 10 minutes, I was talking with someone in Russia.  
 Back then, a phone call to Russia would have been a week of my wages, cutting grass.  

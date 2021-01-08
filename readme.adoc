@@ -32,11 +32,8 @@ image::sdr-basic-icon-1.png[SDR, alt='sdr', align='center']
 
 To download a PDF version of this article please click on this link:./readme.pdf[Link, window=_blank]
 
-The current Windows version (3.5) of the Zadig zip file can be downloaded from this link::./files/zadig-2.5.exe[Link].
-This utility is the executable, no installation needed.
- 
-
- 
+NOTE: Yea, I did copy some of the content from Wikepedia and other sources.  
+This was done out of necessity and speed.
 
 
 == Introduction
@@ -82,7 +79,8 @@ The drivers for SDR devices ar the most difficult part of the process.  There ar
 
 Reference: link:https://zadig.akeo.ie[Zadig web site, window='_blank']
 
-
+The current Windows version (3.5) of the Zadig zip file can be downloaded from this link::./files/zadig-2.5.exe[Link].
+This utility is the executable, no installation needed.
  
 
 

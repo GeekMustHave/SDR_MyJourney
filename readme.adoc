@@ -58,7 +58,7 @@ I use a regular text editor and a markdown syntax called <<ASCDoctor>> to help c
 
 == Hardware
 
-Back a few years back I purchased a few SDR devices thinking I would use them immeditely, alas `life` got in the way.
+Back a few years back I purchased a few SDR devices thinking I would use them immediately, alas `life` got in the way.
 
 === Aliexpress
 
@@ -69,7 +69,7 @@ image::aliexpress-sdr.jpg[Aliexpress SDR, alt='First SDR', align='center']
 
 Reference: link:https://www.aliexpress.com/item/32369434396.html?spm=a2g0s.9042311.0.0.27424c4dRT7Wzu[Aliexpress Order, window='_blank']
 
-Manual: The `Manual` for this device can be viewed at this link::./documents/aliexpress-doco.pdf[Link ]
+Manual: The `Manual` for this device can be viewed at this link:./documents/aliexpress-doco.pdf[Link ]
 
 
  

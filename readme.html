@@ -453,7 +453,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_aliexpress">2.1. Aliexpress</a></li>
 </ul>
 </li>
-<li><a href="#_installation">3. Installation</a></li>
+<li><a href="#_installation">3. Installation</a>
+<ul class="sectlevel2">
+<li><a href="#_usb_drivers">3.1. USB Drivers</a></li>
+<li><a href="#_sdrplay_version_1_0">3.2. SDRPlay Version 1.0</a></li>
+<li><a href="#_rtl_sdr">3.3. RTL-SDR</a>
+<ul class="sectlevel3">
+<li><a href="#_dipole_manual">3.3.1. Dipole  Manual</a></li>
+<li><a href="#_dipole_calculator">3.3.2. Dipole Calculator</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#_glossary">4. Glossary</a></li>
 <li><a href="#_document_history">5. Document History</a></li>
 </ul>
@@ -496,8 +507,10 @@ I did this out of necessity and speed.
 A HAM operator in my neighborhood with many big antennas in the backyard, invited me to his <code>Shack.</code>
 The dark space in the attic was full of beautiful boxes with dials and lights and the scratchy sound of people talking.
 Within 10 minutes, I was talking with someone in Russia.
-Back then, a phone call to Russia would have been a week of my wages, cutting grass.
-I was hooked.  I continued with electronics and radios throughout my life.
+Back then, a phone call to Russia would have been a week of my wages, cutting grass.</p>
+</div>
+<div class="paragraph">
+<p>I was hooked.  I continued with electronics and radios throughout my life.
 Tinkering and building things were my escape from the <code>real</code> world.
 I knew enough about electronics and radio that I took the FCC Technicians test and passed the first time (Pat on the back).
 While this only gave me a limited range of frequencies I could use, it was a start.</p>
@@ -522,6 +535,9 @@ I use a regular text editor and a markdown syntax called <a href="#ASCDoctor">[A
 <div class="paragraph">
 <p>A few years back, I purchased a few SDR devices, thinking I would use them immediately, alas <code>life</code> got in the way.</p>
 </div>
+<div class="paragraph">
+<p>Recently after some frustration with the older SDR devices, I purchased a newer SDR dongle device</p>
+</div>
 <div class="sect2">
 <h3 id="_aliexpress">2.1. Aliexpress</h3>
 <div class="paragraph">
@@ -545,8 +561,10 @@ I use a regular text editor and a markdown syntax called <a href="#ASCDoctor">[A
 <div class="sect1">
 <h2 id="_installation">3. Installation</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_usb_drivers">3.1. USB Drivers</h3>
 <div class="paragraph">
-<p>The USB drivers for SDR devices are the most challenging part of getting started using <a href="#SDR">[SDR]</a>.  There are some tricks to make this more manageable, including using <code>ZADIG</code> USB driver installation.</p>
+<p>The USB drivers for SDR devices are the most challenging part of getting started using <a href="#SDR">[SDR]</a>.  There are some tricks to make this more manageable, including using &lt;&lt;&gt;ZADIG&gt;&gt; USB driver installation.</p>
 </div>
 <div class="paragraph">
 <p>Reference: <a href="https://zadig.akeo.ie" target="_blank" rel="noopener">Zadig web site</a></p>
@@ -556,6 +574,27 @@ I use a regular text editor and a markdown syntax called <a href="#ASCDoctor">[A
 This utility is the executable file; no installation is needed.</p>
 </div>
 <div style="page-break-after: always;"></div>
+</div>
+<div class="sect2">
+<h3 id="_sdrplay_version_1_0">3.2. SDRPlay Version 1.0</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_rtl_sdr">3.3. RTL-SDR</h3>
+<div class="sect3">
+<h4 id="_dipole_manual">3.3.1. Dipole  Manual</h4>
+<div class="paragraph">
+<p>Dipole Manual can be viewed at the following <a href="/./documents/RTL-SDR_Dipole_Guide.pdf" target="_blank" rel="noopener">link</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_dipole_calculator">3.3.2. Dipole Calculator</h4>
+<div class="paragraph">
+<p>Reference: <a href="/http://www.csgnetwork.com/antennaedcalc.html" target="_blank" rel="noopener"><a href="http://www.csgnetwork.com/antennaedcalc.html" class="bare">http://www.csgnetwork.com/antennaedcalc.html</a></a></p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -612,9 +651,9 @@ This utility is the executable file; no installation is needed.</p>
 </dd>
 </dl>
 </div>
-<div id="RTL-DSR" class="dlist">
+<div id="RTL-SDR" class="dlist">
 <dl>
-<dt class="hdlist1">RTL-DSR</dt>
+<dt class="hdlist1">RTL-SDR</dt>
 <dd>
 <p>It has been discovered by Eric Fry that some common low-cost DVB-T USB dongles with the Realtek RTL2832Ucontroller and tuner, e.g. the Elonics E4000 or the Rafael Micro R820T, can be used as a wide-band (3 MHz) SDR receiver. Recent experiments have proven the capability of this setup to analyze perseids shower using the graves radar signals. This project is now being maintained at Osmocom.</p>
 </dd>
@@ -633,6 +672,27 @@ This utility is the executable file; no installation is needed.</p>
 <dt class="hdlist1">TETRA</dt>
 <dd>
 <p>Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services, and the military.</p>
+</dd>
+</dl>
+</div>
+<div id="ZADIG" class="dlist">
+<dl>
+<dt class="hdlist1">ZADIG</dt>
+<dd>
+<p>Zadig is a Windows application that installs generic USB drivers, such as WinUSB, libusb-win32/libusb0.sys or libusbK, to help you access USB devices.  It can be especially useful for cases where:</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>you want to access a device using a libusb-based application</p>
+</li>
+<li>
+<p>you want to upgrade a generic USB driver</p>
+</li>
+<li>
+<p>you want to access a device using WinUSB</p>
+</li>
+</ol>
+</div>
 </dd>
 </dl>
 </div>
@@ -679,7 +739,7 @@ This utility is the executable file; no installation is needed.</p>
 <div id="footer">
 <div id="footer-text">
 Version 2.1c<br>
-Last updated 2021-01-07 23:01:29 -0500
+Last updated 2021-01-13 09:38:16 -0500
 </div>
 </div>
 </body>

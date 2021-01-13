@@ -43,6 +43,7 @@ A HAM operator in my neighborhood with many big antennas in the backyard, invite
 The dark space in the attic was full of beautiful boxes with dials and lights and the scratchy sound of people talking.  
 Within 10 minutes, I was talking with someone in Russia.  
 Back then, a phone call to Russia would have been a week of my wages, cutting grass.  
+
 I was hooked.  I continued with electronics and radios throughout my life.  
 Tinkering and building things were my escape from the `real` world.
 I knew enough about electronics and radio that I took the FCC Technicians test and passed the first time (Pat on the back).  
@@ -61,6 +62,8 @@ I use a regular text editor and a markdown syntax called <<ASCDoctor>> to help c
 
 A few years back, I purchased a few SDR devices, thinking I would use them immediately, alas `life` got in the way.
 
+Recently after some frustration with the older SDR devices, I purchased a newer SDR dongle device
+
 === Aliexpress
 
 She was purchased back in Jan 2016 for $40.00.
@@ -72,17 +75,32 @@ Reference: link:https://www.aliexpress.com/item/32369434396.html?spm=a2g0s.90423
 
 Manual: The so called `Manual` for this device can be viewed at this link:./documents/aliexpress-doco.pdf[Link ]
 
-
-
 == Installation
 
-The USB drivers for SDR devices are the most challenging part of getting started using <<SDR>>.  There are some tricks to make this more manageable, including using `ZADIG` USB driver installation.
+=== USB Drivers
+
+The USB drivers for SDR devices are the most challenging part of getting started using <<SDR>>.  There are some tricks to make this more manageable, including using <<>ZADIG>> USB driver installation.
 
 Reference: link:https://zadig.akeo.ie[Zadig web site, window='_blank']
 
 The current Windows version (3.5) of the Zadig zip file can be downloaded from this link::./files/zadig-2.5.exe[Link].
 This utility is the executable file; no installation is needed.
+
+<<<<
  
+=== SDRPlay Version 1.0
+
+
+=== RTL-SDR
+
+
+==== Dipole  Manual
+
+Dipole Manual can be viewed at the following link:/./documents/RTL-SDR_Dipole_Guide.pdf[link, window="_blank"]
+
+==== Dipole Calculator
+
+Reference: link:/http://www.csgnetwork.com/antennaedcalc.html[http://www.csgnetwork.com/antennaedcalc.html, window="_blank"]
 
 
 
@@ -124,8 +142,8 @@ Osmocom (open source mobile communications) is an open-source software project t
  
 
 
-[[RTL-DSR]]
-RTL-DSR::
+[[RTL-SDR]]
+RTL-SDR::
 It has been discovered by Eric Fry that some common low-cost DVB-T USB dongles with the Realtek RTL2832Ucontroller and tuner, e.g. the Elonics E4000 or the Rafael Micro R820T, can be used as a wide-band (3 MHz) SDR receiver. Recent experiments have proven the capability of this setup to analyze perseids shower using the graves radar signals. This project is now being maintained at Osmocom.
  
 
@@ -138,6 +156,14 @@ Software Defined Radio, Software Defined Radio attempts to place much or most of
 [[TETRA]]
 TETRA::
 Terrestrial Trunked Radio (TETRA; formerly known as Trans-European Trunked Radio), a European standard for a trunked radio system, is a professional mobile radio and two-way transceiver specification. TETRA was specifically designed for use by government agencies, emergency services (police forces, fire departments, ambulance) for public safety networks, rail transport staff for train radios, transport services, and the military.
+ 
+[[ZADIG]]
+ZADIG::
+Zadig is a Windows application that installs generic USB drivers, such as WinUSB, libusb-win32/libusb0.sys or libusbK, to help you access USB devices.  It can be especially useful for cases where:
+
+. you want to access a device using a libusb-based application
+. you want to upgrade a generic USB driver
+. you want to access a device using WinUSB
  
 
 
